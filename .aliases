@@ -1,13 +1,15 @@
 # Git Stuff
-alias ga="git add"
-alias gs="git status"
-alias gaa="git add ."
-alias gc="git commit -m"
-alias gp="git push"
-alias nah="git reset --hard;git clean -df;"
-alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+#alias ga="git add"
+#alias gs="git status"
+#alias gaa="git add ."
+#alias gc="git commit -m"
+#alias gp="git push"
+#alias nah="git reset --hard;git clean -df;"
+#alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Bash Profile 
 alias editbash="sudo nano ~/.bash_profile"
 alias sourcebash="source ~/.bash_profile"
-
+alias editalias="sudo nano ~/.aliases"
+alias sourcezsh="source ~/.zshrc"
+alias editzsh="sudo nano ~/.zshrc"
